@@ -38,10 +38,10 @@ Text Domain: developer
 //  01 - Global 
 /////////////////////////////////////////////////////////////////////*/
 @font-face {
-	font-family: 'Pacifico';
+	font-family: 'Allura';
 	font-style: normal;
-	font-weight: 400;
-	src: local('Pacifico Regular'), local('Pacifico-Regular'), url("../fonts/pacifico.woff") format('woff');
+	font-weight: normal;
+	src: url("../fonts/Allura-Regular.ttf") format('truetype');
 }
 
 html, body {
@@ -69,7 +69,7 @@ body {
 }
 
 .btn {
-	transition: 0.4s background linear;
+	transition: 0.4s linear;
 }
 
 .btn:focus
@@ -147,7 +147,7 @@ body {
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
-	transition: 0.5s background linear;
+	transition: 0.5s linear;
 }
 
 /* .site-nav ul li a:hover {
@@ -204,8 +204,8 @@ body {
     /* font-family: 'Lato', sans-serif; */
     /* font-family: 'Source Sans Pro', sans-serif; */
     /* font-family: 'Niconne', cursive; */
-    font-weight: 400;
-    font-family: 'Rouge Script', cursive;
+    font-weight: normal;
+    font-family: 'Allura', Times, serif;
     line-height: 90px;
     color: #fff;
     letter-spacing: 1px;
@@ -494,7 +494,7 @@ ul.numbersList span{
 
 #testimonials .testimonial {
 	padding: 25px;
-	cursor: -webkit-grab;
+	cursor: grab;
 }
 
 #testimonials .testimonial > img {
@@ -545,7 +545,7 @@ ul.numbersList span{
     line-height: 36px;
     margin-top: 25px;
 }
-.
+
 .contact-info i {
     width: 40px;
 	height: 40px;
@@ -587,14 +587,14 @@ input[type="submit"] {
 	border-radius: 20px;
 	width: 100%;
 	padding: 10px;
-	transition: 0.5s background linear;
+	transition: 0.5s linear;
 	font-weight: bold;
 }
 
 input[type="submit"]:hover {
 	background: #fff;
 	border-color: #fff;
-	transition: 0.5s background linear;
+	transition: 0.5s linear;
 	color: #333;
 }
 
@@ -627,7 +627,7 @@ input[type="submit"]:hover {
 }
 
 .social-box li a {
-	transition: 0.5s background linear;
+	transition: 0.5s linear;
 	color: #fff;
 }
 
